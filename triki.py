@@ -41,6 +41,7 @@ def dibujar_x(fila, columna):
 
 def dibujar_o(fila, columna):
     screen.blit(circulo, coor[fila][columna])
+    #prueba
 
 def verificar_ganador():
     for i in range(3):
