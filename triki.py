@@ -78,7 +78,7 @@ def algoritmo_minimax(tablero, profundidad, esMaximizador):
                     valor = algoritmo_minimax(tablero, profundidad + 1, False)
                     mejor = max(mejor, valor)
                     tablero[i][j] = ''
-                    if profundidad == 0:  # Mostrar en la raíz del árbol Minimax
+                    if profundidad == 0: 
                         print(f"Movimiento: ({i}, {j}), Valor: {valor}")
         return mejor
     else:
